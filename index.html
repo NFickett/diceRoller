@@ -6,9 +6,9 @@
   <link rel="stylesheet" href="diceRoller.css">
   <script src="diceRoller.js"></script>
 </head>
-<body>
+<body onload="rollDice()">
     <h1>Yahtzee</h1>
-    <p>This Simple iteration of Yahtzee will let you roll dice and hold certain dice from rolling</p>
+    <p>This Simple iteration of Yahtzee will let you roll dice and hold the certain dice from rolling</p>
 <!--This is where the dice boxes are divided-->
     <div class="diceBoxes">
         <label>Die 1:<input id="taDie1" type="text" value="" size="5" disabled></label><br>
@@ -34,7 +34,7 @@
         <label>Die 5:<input id="taDie5" type="text" value="" size="5" disabled></label><br>
         <label>Hold?<input id="cbDie5" type="checkbox"></label>
     <div>          
-    <button type="button" onclick="rollDice()">Roll Dice</button>
+    <button type="button" onclick="rollDice()" autofocus>Roll Dice</button>
 </body>
 
 </html>
