@@ -1,0 +1,40 @@
+<html lang = "en">
+<head>
+  <title>Dice Roller</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="diceRoller.css">
+  <script src="diceRoller.js"></script>
+</head>
+<body>
+    <h1>Yahtzee</h1>
+    <p>This Simple iteration of Yahtzee will let you roll dice and hold the certain dice from rolling</p>
+<!--This is where the dice boxes are divided-->
+    <div class="diceBoxes">
+        <label>Die 1:<input id="taDie1" type="text" value="" size="5" disabled></label><br>
+        <label>Hold?<input id="cbDie1" type="checkbox"></label>
+    <div>
+
+    <div class="diceBoxes">
+        <label>Die 2:<input id="taDie2" type="text" value="" size="5" disabled></label><br>
+        <label>Hold?<input id="cbDie2" type="checkbox"></label>  
+    <div>
+
+    <div class="diceBoxes">
+        <label>Die 3:<input id="taDie3" type="text" value="" size="5" disabled></label><br>
+        <label>Hold?<input id="cbDie3" type="checkbox"></label>
+    <div> 
+
+    <div class="diceBoxes">
+        <label>Die 4:<input id="taDie4" type="text" value="" size="5" disabled></label><br>
+        <label>Hold?<input id="cbDie4" type="checkbox"></label>
+    <div>
+
+    <div class="diceBoxes">
+        <label>Die 5:<input id="taDie5" type="text" value="" size="5" disabled></label><br>
+        <label>Hold?<input id="cbDie5" type="checkbox"></label>
+    <div>          
+    <button type="button" onclick="rollDice()">Roll Dice</button>
+</body>
+
+</html>
